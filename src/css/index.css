@@ -110,6 +110,7 @@ body {
   padding-left: 20px;
   font-size: 16px;
   outline: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 .hero_email::placeholder {
   color: var(--desBlue);
@@ -126,6 +127,7 @@ body {
   font-size: 16px;
   margin-left: 1rem;
   outline: none;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Content Section */
@@ -157,7 +159,8 @@ body {
 }
 
 .content_title {
-  font-size: 37px;
+  font-size: 36px;
+  font-family: var(--rale);
   font-weight: 700;
   padding-bottom: 30px;
 }
@@ -209,6 +212,7 @@ body {
   padding: 25px 31px;
   font-family: var(--open);
   border-radius: var(--rad);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .card_svg {
@@ -248,4 +252,55 @@ body {
 .profile_work {
   font-family: var(--rale);
   font-size: 11px;
+}
+
+/* Access Section */
+
+.access {
+  background: var(--desBlue);
+  height: 325px;
+  padding: 105px 57px;
+  font-family: var(--open);
+  color: var(--light);
+}
+
+.access_grid {
+  display: grid;
+  grid-template-columns: 600px 640px;
+  column-gap: 130px;
+  align-items: flex-start;
+}
+
+.access_title {
+  font-size: 27.5px;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+
+.access_text {
+  font-size: 19px;
+  line-height: 28px;
+}
+
+/* Access Form */
+
+.access_email {
+  width: 570px;
+  height: 50px;
+  border: none;
+  border-radius: var(--rad);
+  padding-left: 20px;
+  margin-bottom: 18px;
+  outline: none;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+
+.access_sub {
+  width: 200px;
+  height: 47px;
+  background: var(--blue);
+  border: none;
+  color: var(--light);
+  border-radius: var(--rad);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
