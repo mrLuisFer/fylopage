@@ -10,6 +10,11 @@
       href="./images/favicon-32x32.png"
     />
     <title>Fylo landing page</title>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/0b9946e474.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Google Fonts -->
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
@@ -75,23 +80,29 @@
     <section class="content">
       <img src="./images/curveDesk.svg" alt="curveDesk" class="content_svg" />
       <div class="content_grid">
-        <div class="content-text">
+        <div class="content_text">
           <h1 class="content_title">
             Stay productive, wherever you are
           </h1>
-          <p class="content_text_p">
+          <p class="content_text_p p1">
             Never let location be an issue when accessing your files. Fylo has
             you covered for all of your file storage needs.
           </p>
-          <p class="content_text_p2">
+          <p class="content_text_p">
             Securely share files and folders with friends, family and colleagues
             for live collaboration. No email attachments required!
           </p>
-          <a class="content_a" href="#">
-            See how Fylo works
-          </a>
+          <div class="div_a">
+            <a class="content_a" href="#">
+              See how Fylo works
+              <i class="content_arrow fas fa-arrow-circle-right"></i>
+            </a>
+            <hr class="content_hr" />
+          </div>
+          <!-- sorry for the name of the classes lol -->
           <div class="card">
             <img class="card_svg" src="./images/icon-quotes.svg" alt="quotes" />
+
             <p class="card_text">
               Fylo has improved our team productivity by an order of magnitude.
               Since making the switch our team has become a well-oiled
@@ -103,19 +114,20 @@
                 src="./images/avatar-testimonial.jpg"
                 alt="avatar"
               />
-              <p class="profile_name">
-                Kyle Burton
-              </p>
-              <!-- sorry for the name of the classes lol -->
-              <p class="profile_work">
-                Founder & CEO, Huddle
-              </p>
+              <div class="card_texts">
+                <p class="profile_name">
+                  Kyle Burton
+                </p>
+                <p class="profile_work">
+                  Founder & CEO, Huddle
+                </p>
+              </div>
             </div>
           </div>
         </div>
         <div class="div_img">
           <img
-            class="hero_img"
+            class="content_img"
             src="./images/illustration-2.svg"
             alt="content_img"
             width="550px"
