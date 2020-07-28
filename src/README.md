@@ -10,6 +10,6 @@ This is my first Github repository, landing a FrontendMentor page. :D
 
 🌟 I will also be learning Git to handle versions :)
 
-### Thanks to FrontendMentor
+## Thanks to FrontendMentor
 
-# https://www.frontendmentor.io/dashboard
+### https://www.frontendmentor.io/dashboard
