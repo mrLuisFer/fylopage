@@ -1,0 +1,130 @@
+:root {
+  /* Typography */
+  /* Body: */
+  --open: "Open Sans", sans-serif;
+  /* Weight: 400 */
+  /*////////////////////////////*/
+  /* Headings, Call-to-actions, Header Navigation: */
+  --rale: "Raleway", sans-serif;
+  /* Weight: 400 700 */
+  /*------------------------------------*/
+  --darkBlue: hsl(243, 87%, 12%);
+  --desBlue: hsl(238, 22%, 44%);
+  /* Accent */
+  --blue: hsl(224, 93%, 58%);
+  --cyan: hsl(170, 45%, 43%);
+  /* Neutral */
+  --light: hsl(240, 75%, 98%);
+  --gray: hsl(0, 0%, 75%);
+  /* Radius */
+  --rad: 3px;
+  font-size: 16px;
+}
+/* Spanglish :D */
+
+body {
+  min-width: 1440px;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.main {
+  padding: 4.4375rem 3.7rem;
+}
+
+/* Header Section */
+
+.header {
+  font-family: var(--rale);
+  color: var(--darkblue);
+  font-weight: 400;
+}
+
+.header_grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav ul {
+  list-style: none;
+  display: flex;
+  align-content: flex-end;
+}
+
+.header_nav ul li {
+  margin-left: 3.6875rem;
+}
+
+/* Hero Section */
+
+.hero {
+  margin-top: 10.375rem;
+  font-family: var(--open);
+}
+
+.hero_grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero_title {
+  font-size: 2.4125rem;
+}
+
+.hero_text {
+  font-size: 19.219px;
+}
+
+.hero_img {
+  margin-left: 5.8355rem;
+}
+
+/* Hero Button */
+
+.hero_form {
+  display: flex;
+  align-items: center;
+}
+
+.hero_email {
+  height: 44px;
+  width: 344px;
+  border: 1px solid var(--desBlue);
+  border-radius: var(--rad);
+  padding-left: 20px;
+  font-size: 16px;
+}
+.hero_email::placeholder {
+  color: var(--desBlue);
+}
+
+.hero_submit {
+  width: 199px;
+  height: 44px;
+  border: none;
+  color: var(--light);
+  background: var(--blue);
+  border-radius: var(--rad);
+  padding: 15px 0;
+  font-size: 16px;
+  margin-left: 1rem;
+}
+
+/* Content Section */
+
+.content {
+  margin-top: 160 .px;
+  position: relative;
+  background: var(--light);
+  height: 300px;
+}
+
+.content_svg {
+  position: absolute;
+  top: -90px;
+  left: 0;
+  z-index: -100;
+}
