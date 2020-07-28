@@ -12,7 +12,7 @@ This is my first Github repository, landing a FrontendMentor page. :D
 
 ### Preview
 
-![alt text](https://raw.githubusercontent.com/mrLuisFer/fylopage/blob/master/src/desktop-preview.jpg
+![Fylo-Preview](./src/desktop-preview.jpg)
 
 ## Thanks to FrontendMentor
 
