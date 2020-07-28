@@ -1,4 +1,4 @@
-# fylopage
+# Fylo Landing Page
 This is my first Github repository, landing a FrontendMentor page. :D
 
 ### Fylo Landing Page
