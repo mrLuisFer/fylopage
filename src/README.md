@@ -1,6 +1,6 @@
 # Fylo Landing Page
 
-# `This is my first Github reposi-tory, landing a FrontendMentor page.`
+## `This is my first Github reposi-tory, landing a FrontendMentor page.`
 
 ### Fylo Landing Page
 
@@ -17,3 +17,5 @@
 ## Thanks to FrontendMentor
 
 ### https://www.frontendmentor.io/dashboard
+
+### LF
