@@ -116,7 +116,7 @@ body {
 /* Content Section */
 
 .content {
-  margin-top: 160 .px;
+  margin-top: 160px;
   position: relative;
   background: var(--light);
   height: 300px;
