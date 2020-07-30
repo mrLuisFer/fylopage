@@ -32,6 +32,7 @@ body {
   min-width: 1440px;
   font-size: 16px;
   overflow-x: hidden;
+  height: auto;
 }
 
 .main {
@@ -311,9 +312,9 @@ body {
   background: var(--darkBlue);
   font-family: var(--open);
   color: #fff;
-  height: 386px;
   padding: 103px 57px;
-  padding-bottom: 68px;
+  padding-bottom: 70px;
+  height: auto;
 }
 
 .footer_grid {
@@ -363,5 +364,6 @@ body {
 @media screen and (max-width: 1390) {
   body {
     min-width: 1350px;
+    margin: 0 auto;
   }
 }

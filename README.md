@@ -2,7 +2,7 @@
 
 ## `This is my first Github repository, landing a FrontendMentor page.`
 
-### Fylo Landing Page
+## Fylo Landing Page
 
 📌FrontendMentor
 
@@ -10,17 +10,19 @@
 
 🌟 I will also be learning Git to handle versions :)
 
-# Layout
+## Layout
 
 The designs were created to the following widths:
 
-### --Mobile: 375px
+## --Mobile: 375px
+
+`(Well I learned that I must do the mobile first)`
 
 ### --Desktop: 1440px
 
 ## Preview
 
-![Fylo-Preview](./src/desktop-preview.jpg)
+![Fylo-Preview](./desktop-preview.jpg)
 
 ## Thanks to FrontendMentor
 
