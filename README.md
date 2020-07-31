@@ -22,7 +22,7 @@ The designs were created to the following widths:
 
 ## Preview
 
-![Fylo-Preview](./src/desktop-preview.jpg)
+![Fylo-Preview](./desktop-preview.jpg)
 
 ## Thanks to FrontendMentor
 
