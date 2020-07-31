@@ -14,7 +14,7 @@
 
 The designs were created to the following widths:
 
-## --Mobile: 375px
+## --Mobile: 542px
 
 `(Well I learned that I must do the mobile first)`
 
