@@ -12,9 +12,12 @@
   --desBlue: hsl(238, 22%, 44%);
   /* Accent */
   --blue: hsl(224, 93%, 58%);
+  --hoverBlue: hsl(241, 100%, 65%);
   --cyan: hsl(170, 45%, 43%);
+  --hoverCyan: hsl(170, 65%, 68%);
   /* Neutral */
   --light: hsl(240, 75%, 98%);
+  --hoverWhite: hsla(0, 0%, 93%, 0.945);
   --gray: hsl(0, 0%, 75%);
   /* Radius */
   --rad: 4px;
@@ -82,6 +85,11 @@ body {
   font-size: 2.4125rem;
   font-weight: 700;
   padding-bottom: 1.875rem;
+  transition: 0.3s ease;
+}
+
+.hero_title:hover {
+  letter-spacing: 0.3px;
 }
 
 .hero_text {
@@ -112,9 +120,14 @@ body {
   font-size: 16px;
   outline: none;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s ease;
 }
 .hero_email::placeholder {
   color: var(--desBlue);
+}
+.hero_email:focus {
+  border-color: var(--blue);
+  background: var(--hoverWhite);
 }
 
 .hero_submit {
@@ -125,10 +138,17 @@ body {
   background: var(--blue);
   border-radius: var(--rad);
   padding: 0.9375rem 0;
+  font-family: var(--rale);
+  font-weight: 700;
   font-size: 16px;
   margin-left: 1rem;
   outline: none;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  transition: background 0.2s ease;
+}
+
+.hero_submit:hover {
+  background: var(--hoverBlue);
 }
 
 /* Content Section */
@@ -164,6 +184,11 @@ body {
   font-family: var(--rale);
   font-weight: 700;
   padding-bottom: 1.875rem;
+  transition: 0.3s ease;
+}
+
+.content_title:hover {
+  letter-spacing: 0.3px;
 }
 
 .content_text_p {
@@ -179,6 +204,13 @@ body {
   color: var(--cyan);
   text-decoration: none;
   margin-top: 1.1875rem;
+  transition: 0.3s ease;
+}
+
+.content_a:hover,
+.content_hr:hover {
+  color: var(--hoverCyan);
+  letter-spacing: 0.2px;
 }
 
 .div_a {
@@ -214,6 +246,12 @@ body {
   font-family: var(--open);
   border-radius: var(--rad);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.45s ease;
+}
+
+.card:hover {
+  transform: rotate(2.5deg);
+  box-shadow: 3.5px 3.5px 6px rgba(0, 0, 0, 0.45);
 }
 
 .card_svg {
@@ -276,6 +314,10 @@ body {
   font-size: 27.5px;
   padding-bottom: 1.875rem;
   color: #ffffff;
+  transition: 0.3s ease;
+}
+.access_title:hover {
+  letter-spacing: 0.3px;
 }
 
 .access_text {
@@ -294,6 +336,7 @@ body {
   padding-left: 1.25rem;
   margin-bottom: 1.125rem;
   outline: none;
+  text-transform: lowercase;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -305,6 +348,13 @@ body {
   color: var(--light);
   border-radius: var(--rad);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.3s ease;
+}
+
+.access_sub:hover {
+  background: var(--hoverBlue);
+  box-shadow: 3.5px 3.5px rgba(0, 0, 0, 0.35);
+  transform: scale(1.07);
 }
 
 /* Footer */
